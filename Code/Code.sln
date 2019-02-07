@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuckConsole", "SimUDuckConsole\SimUDuckConsole.csproj", "{C4B4B82E-03D8-450E-A114-C50AF317C460}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F} = {D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsLib", "DesignPatternsLib\DesignPatternsLib.csproj", "{D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BF28A50-C53A-4077-84A4-8CFF961621FF}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter1_Notes.md = Chapter1_Notes.md
+		Chapter2_Notes.md = Chapter2_Notes.md
+		DesignPatternsIndex.md = DesignPatternsIndex.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherORamaConsole", "WeatherORamaConsole\WeatherORamaConsole.csproj", "{300884FF-1389-44CF-A825-7703577DD6B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F} = {D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{7193BEF0-4EEF-4C02-8708-57EDA933EFAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4B4B82E-03D8-450E-A114-C50AF317C460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B4B82E-03D8-450E-A114-C50AF317C460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B4B82E-03D8-450E-A114-C50AF317C460}.Debug|x64.ActiveCfg = Debug|x64
+		{C4B4B82E-03D8-450E-A114-C50AF317C460}.Debug|x64.Build.0 = Debug|x64
+		{C4B4B82E-03D8-450E-A114-C50AF317C460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B4B82E-03D8-450E-A114-C50AF317C460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B4B82E-03D8-450E-A114-C50AF317C460}.Release|x64.ActiveCfg = Release|x64
+		{C4B4B82E-03D8-450E-A114-C50AF317C460}.Release|x64.Build.0 = Release|x64
+		{D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F}.Debug|x64.ActiveCfg = Debug|x64
+		{D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F}.Debug|x64.Build.0 = Debug|x64
+		{D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F}.Release|x64.ActiveCfg = Release|Any CPU
+		{D9E21A4D-AB3C-4907-9F47-1DBCC23AE02F}.Release|x64.Build.0 = Release|Any CPU
+		{300884FF-1389-44CF-A825-7703577DD6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300884FF-1389-44CF-A825-7703577DD6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300884FF-1389-44CF-A825-7703577DD6B9}.Debug|x64.ActiveCfg = Debug|x64
+		{300884FF-1389-44CF-A825-7703577DD6B9}.Debug|x64.Build.0 = Debug|x64
+		{300884FF-1389-44CF-A825-7703577DD6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300884FF-1389-44CF-A825-7703577DD6B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300884FF-1389-44CF-A825-7703577DD6B9}.Release|x64.ActiveCfg = Release|Any CPU
+		{300884FF-1389-44CF-A825-7703577DD6B9}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7193BEF0-4EEF-4C02-8708-57EDA933EFAF} = {5BF28A50-C53A-4077-84A4-8CFF961621FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42AF499B-55CC-4500-962E-D8130FD6091A}
+	EndGlobalSection
+EndGlobal
